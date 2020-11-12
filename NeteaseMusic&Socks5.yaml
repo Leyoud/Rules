@@ -16,3 +16,15 @@ proxies:
       cipher: aes-128-gcm, 
       password: desperadoj.com_free_proxy_emx2
     }
+
+  - {
+      name: Debug, 
+      type: socks5, 
+      server: 127.0.0.1, 
+      port: 1080, 
+      username: "", 
+      password: "", 
+      tls: false, 
+      skip-cert-verify: false, 
+      udp: false
+    }
