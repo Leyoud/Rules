@@ -12,7 +12,8 @@ proxies:
   - {
       name: 解锁网易云灰色歌曲(在线), 
       server: music.desperadoj.com, 
-      port: 30001, type: ss, 
+      port: 30001, 
+      type: ss, 
       cipher: aes-128-gcm, 
       password: desperadoj.com_free_proxy_emx2
     }
