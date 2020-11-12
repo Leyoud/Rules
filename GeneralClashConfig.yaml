@@ -1,0 +1,27 @@
+# General
+mixed-port: 7890
+redir-port: 7892
+external-ui: ./
+log-level: info
+allow-lan: true
+bind-address: "*"
+external-controller: 127.0.0.1:9090
+secret: ""
+#-------------------------------------------------------------#
+# Profiles
+mode: rule
+ipv6: false
+authentication: []
+hosts: {}
+
+dns:
+  {
+    enable: true, ipv6: false, listen: 127.0.0.1:53, enhanced-mode: redir-host,
+    nameserver: [223.6.6.6, 223.5.5.5],
+    fallback: [208.67.222.222, 208.67.220.220]
+  }
+
+proxies:
+  - {name: 解锁网易云灰色歌曲(本地), type: http, server: 127.0.0.1, port: 16375, username: "", password: "", tls: false, skip-cert-verify: false}
+  - {name: 解锁网易云灰色歌曲(在线), type: http, server: 106.15.250.108, port: 30000, username: "", password: "", tls: false, skip-cert-verify: false}
+  - {name: Debug, type: socks5, server: 127.0.0.1, port: 1080, username: "", password: "", tls: false, skip-cert-verify: false, udp: false}
