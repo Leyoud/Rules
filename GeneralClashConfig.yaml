@@ -11,19 +11,17 @@ secret: ""
 # Profiles
 mode: rule
 ipv6: false
-authentication: []
-hosts: {}
+authentication:
+hosts:
 
 dns:
-  {
-    enable: true, 
-    ipv6: false, 
-    listen: 127.0.0.1:53, 
-    enhanced-mode: redir-host,
-    nameserver:
-      - 223.6.6.6, 
-      - 223.5.5.5,
-    fallback: 
-      - 208.67.222.222, 
-      - 208.67.220.220
-  }
+  enable: true
+  ipv6: false
+  listen: 127.0.0.1:53
+  enhanced-mode: redir-host
+  nameserver:
+    - 223.6.6.6
+    - 223.5.5.5
+  fallback: 
+    - 208.67.222.222
+    - 208.67.220.220
