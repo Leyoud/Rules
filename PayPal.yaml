@@ -1,4 +1,4 @@
-payload:  
+rules:
   # > PayPal
   # - User-Agent,PayPal*
   - DOMAIN-KEYWORD,paypal
