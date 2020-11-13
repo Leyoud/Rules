@@ -7,6 +7,7 @@ allow-lan: true
 bind-address: "*"
 external-controller: 127.0.0.1:9090
 secret: ""
+#---------------------------------------#
 # Profiles
 mode: rule
 ipv6: false
