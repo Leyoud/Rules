@@ -1,6 +1,0 @@
-PROCESS-NAME,fdm.exe,DIRECT 
-PROCESS-NAME,qbittorrent.exe,DIRECT
-PROCESS-NAME,DownloadService.exe,DIRECT 
-PROCESS-NAME,baidunetdisk.exe,DIRECT
-PROCESS-NAME,aria2c.exe,DIRECT
-PROCESS-NAME,AriaNg.exe,DIRECT
