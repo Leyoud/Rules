@@ -1,0 +1,7 @@
+payload:
+  - PROCESS-NAME,fdm.exe
+  - PROCESS-NAME,qbittorrent.exe
+  - PROCESS-NAME,DownloadService.exe
+  - PROCESS-NAME,baidunetdisk.exe
+  - PROCESS-NAME,aria2c.exe
+  - PROCESS-NAME,AriaNg.exe
